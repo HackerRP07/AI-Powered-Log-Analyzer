@@ -10,9 +10,6 @@ Initial backend logic scaffold for analyzing uploaded logs/images with AI.
 
 ## Configuration
 
-Default config is in `src/main/resources/application.properties` and uses in-memory H2 DB for quick local testing.
-Schema migrations are not auto-run by framework. SQL scripts are provided in `db/scripts` for manual execution.
-
 Set OpenAI key (PowerShell):
 
 ```powershell
